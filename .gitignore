@@ -3,3 +3,5 @@
 ################################################################################
 
 /Fvsm.Application.UI/obj
+/.vs
+/Fvsm.Application.UI/bin/Debug
