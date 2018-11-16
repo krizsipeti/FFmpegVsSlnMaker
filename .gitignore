@@ -2,6 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Fvsm.Application.UI/obj
 /.vs
+/Fvsm.Application.UI/obj
 /Fvsm.Application.UI/bin/Debug
+/Fvsm.Core/obj
+/Fvsm.Core/bin/Debug
