@@ -4,8 +4,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="KFCAppMainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="FFMpeg VS2017 Solution Maker" Height="450" Width="800">
+    <Grid Margin="16 16 16 16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Select the FFMpeg source folder:"/>
+        <TextBox Grid.Row="1" Margin="0 8 0 0" VerticalAlignment="Center"/>
+        <Button Grid.Row="1" Grid.Column="1" Margin="8 8 0 0" Content="Browse" Width="75" />
     </Grid>
 </Window>
