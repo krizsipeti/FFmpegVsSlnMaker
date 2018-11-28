@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fvsm.Application.ViewModel\Fvsm.Application.ViewModel.csproj">
+      <Project>{c34f5643-10f1-43f8-8943-85d2c2c0a5d8}</Project>
+      <Name>Fvsm.Application.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

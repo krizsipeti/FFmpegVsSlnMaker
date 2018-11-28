@@ -16,7 +16,15 @@
         </Grid.ColumnDefinitions>
 
         <TextBlock Text="Select the FFMpeg source folder:"/>
-        <TextBox Grid.Row="1" Margin="0 8 0 0" VerticalAlignment="Center"/>
-        <Button Grid.Row="1" Grid.Column="1" Margin="8 8 0 0" Content="Browse" Width="75" />
+        
+        <TextBox Grid.Row="1"
+                 Margin="0 8 0 0"
+                 VerticalAlignment="Center"
+                 Text="{Binding FFMpegFolder}"/>
+        
+        <Button Grid.Row="1"
+                Grid.Column="1"
+                Margin="8 8 0 0"
+                Content="Browse" Width="75" />
     </Grid>
 </Window>

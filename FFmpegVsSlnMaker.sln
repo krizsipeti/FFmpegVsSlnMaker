@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fvsm.Core", "Fvsm.Core\Fvsm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VsGnuMakeDll", "..\VsGnuMakeDll\VsGnuMakeDll.vcxproj", "{A7E93456-D49F-4120-91F1-06B080787DA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fvsm.Application.ViewModel", "Fvsm.Application.ViewModel\Fvsm.Application.ViewModel.csproj", "{C34F5643-10F1-43F8-8943-85D2C2C0A5D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,14 @@ Global
 		{A7E93456-D49F-4120-91F1-06B080787DA0}.Release|Any CPU.ActiveCfg = Release|Win32
 		{A7E93456-D49F-4120-91F1-06B080787DA0}.Release|x86.ActiveCfg = Release|Win32
 		{A7E93456-D49F-4120-91F1-06B080787DA0}.Release|x86.Build.0 = Release|Win32
+		{C34F5643-10F1-43F8-8943-85D2C2C0A5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34F5643-10F1-43F8-8943-85D2C2C0A5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34F5643-10F1-43F8-8943-85D2C2C0A5D8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C34F5643-10F1-43F8-8943-85D2C2C0A5D8}.Debug|x86.Build.0 = Debug|Any CPU
+		{C34F5643-10F1-43F8-8943-85D2C2C0A5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34F5643-10F1-43F8-8943-85D2C2C0A5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34F5643-10F1-43F8-8943-85D2C2C0A5D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{C34F5643-10F1-43F8-8943-85D2C2C0A5D8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

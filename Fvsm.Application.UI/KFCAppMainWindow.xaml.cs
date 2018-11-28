@@ -7,6 +7,7 @@
 // 16-11-2018 Krizsán Péter             - Original version
 //----------------------------------------------------------------------------
 using System.Windows;
+using Fvsm.Application.ViewModel;
 
 namespace Fvsm.Application.UI
 {
@@ -21,6 +22,7 @@ namespace Fvsm.Application.UI
         public KFCAppMainWindow()
         {
             InitializeComponent();
+            DataContext = new KFCAppVmdViewModelMainWindow();
         }
     }
 }

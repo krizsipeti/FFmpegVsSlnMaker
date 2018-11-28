@@ -20,5 +20,14 @@ namespace Fvsm.Core
         /// By subscribing to this event the client receives notifications about property changes.
         /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged(string propertyName)
+        {
+            if (string.IsNullOrWhiteSpace(propertyName))
+            {
+                return;
+            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }
